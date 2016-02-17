@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{ [weak self] &lt;#sinature#&gt; in
+	<string>{ [weak self] &lt;#signature#&gt; in
     guard let _self = self else { return }
     &lt;##&gt;
 }
