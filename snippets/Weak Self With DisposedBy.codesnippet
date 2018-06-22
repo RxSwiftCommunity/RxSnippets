@@ -13,13 +13,14 @@
     guard let _self = self else { return }
     &lt;##&gt;
 }
-.addDisposableTo(disposeBag)</string>
+.disposed(by: disposeBag)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5ABD469A-3D65-4B38-9FA9-D196BF9B3560</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak Self With AddDisposableTo</string>
+	<string>Weak Self With DisposedBy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
