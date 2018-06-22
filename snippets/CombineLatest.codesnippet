@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>combinelatest</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>Observable.combineLatest(&lt;#observable1#&gt;, &lt;#observable2#&gt;) {[weak self] &lt;#input1#&gt;, &lt;#input2#&gt; -&gt; &lt;#Output#&gt; in
+            }.subscribe(onNext: { [weak self] in
+                guard let _self = self else { return }
+                
+            }).disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>53746C14-F0A5-4A86-B631-87FC8C06D8CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>RxSwift CombineLatest with 2 parameters, a standard subscription and a disposedBy</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CombineLatest with 2 parameters</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
